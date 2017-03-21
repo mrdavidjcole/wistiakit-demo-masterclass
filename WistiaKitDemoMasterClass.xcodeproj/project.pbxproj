@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DCD20CB30C5B2407116AFBD /* Pods_WistiaKitDemoMasterClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE57A7D533EA2CB1673179E /* Pods_WistiaKitDemoMasterClass.framework */; };
+		3413B2E017D934A629068360 /* Pods_WistiaKitDemoMasterClassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A208D8E91E2A35DD9EDF8A /* Pods_WistiaKitDemoMasterClassTests.framework */; };
 		B8D57CBC1E81BD0F007964B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D57CBB1E81BD0F007964B4 /* AppDelegate.swift */; };
 		B8D57CBE1E81BD0F007964B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D57CBD1E81BD0F007964B4 /* ViewController.swift */; };
 		B8D57CC11E81BD0F007964B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D57CBF1E81BD0F007964B4 /* Main.storyboard */; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A208D8E91E2A35DD9EDF8A /* Pods_WistiaKitDemoMasterClassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WistiaKitDemoMasterClassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF71E4946501B35A31806FC /* Pods-WistiaKitDemoMasterClassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WistiaKitDemoMasterClassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WistiaKitDemoMasterClassTests/Pods-WistiaKitDemoMasterClassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1449B0D2614F47F5575BDD /* Pods-WistiaKitDemoMasterClassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WistiaKitDemoMasterClassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WistiaKitDemoMasterClassTests/Pods-WistiaKitDemoMasterClassTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6E9D7EE019B42EA8574BBC4 /* Pods-WistiaKitDemoMasterClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WistiaKitDemoMasterClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-WistiaKitDemoMasterClass/Pods-WistiaKitDemoMasterClass.release.xcconfig"; sourceTree = "<group>"; };
 		B8D57CB81E81BD0F007964B4 /* WistiaKitDemoMasterClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WistiaKitDemoMasterClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D57CBB1E81BD0F007964B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8D57CBD1E81BD0F007964B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		B8D57CCC1E81BD0F007964B4 /* WistiaKitDemoMasterClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WistiaKitDemoMasterClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D57CD01E81BD0F007964B4 /* WistiaKitDemoMasterClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WistiaKitDemoMasterClassTests.swift; sourceTree = "<group>"; };
 		B8D57CD21E81BD0F007964B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE57A7D533EA2CB1673179E /* Pods_WistiaKitDemoMasterClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WistiaKitDemoMasterClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B60CBE1B4F200BF5BC19D1 /* Pods-WistiaKitDemoMasterClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WistiaKitDemoMasterClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WistiaKitDemoMasterClass/Pods-WistiaKitDemoMasterClass.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCD20CB30C5B2407116AFBD /* Pods_WistiaKitDemoMasterClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3413B2E017D934A629068360 /* Pods_WistiaKitDemoMasterClassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A160E35E85BFC94B614404A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4B60CBE1B4F200BF5BC19D1 /* Pods-WistiaKitDemoMasterClass.debug.xcconfig */,
+				A6E9D7EE019B42EA8574BBC4 /* Pods-WistiaKitDemoMasterClass.release.xcconfig */,
+				3AF71E4946501B35A31806FC /* Pods-WistiaKitDemoMasterClassTests.debug.xcconfig */,
+				9F1449B0D2614F47F5575BDD /* Pods-WistiaKitDemoMasterClassTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE829BFA74DC837AEFE5A94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE57A7D533EA2CB1673179E /* Pods_WistiaKitDemoMasterClass.framework */,
+				13A208D8E91E2A35DD9EDF8A /* Pods_WistiaKitDemoMasterClassTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8D57CAF1E81BD0F007964B4 = {
 			isa = PBXGroup;
 			children = (
 				B8D57CBA1E81BD0F007964B4 /* WistiaKitDemoMasterClass */,
 				B8D57CCF1E81BD0F007964B4 /* WistiaKitDemoMasterClassTests */,
 				B8D57CB91E81BD0F007964B4 /* Products */,
+				0A160E35E85BFC94B614404A /* Pods */,
+				AE829BFA74DC837AEFE5A94F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8D57CD51E81BD0F007964B4 /* Build configuration list for PBXNativeTarget "WistiaKitDemoMasterClass" */;
 			buildPhases = (
+				ED37005B18304BC514FAC8BA /* [CP] Check Pods Manifest.lock */,
 				B8D57CB41E81BD0F007964B4 /* Sources */,
 				B8D57CB51E81BD0F007964B4 /* Frameworks */,
 				B8D57CB61E81BD0F007964B4 /* Resources */,
+				90B120F3CE48E828ABC9B509 /* [CP] Embed Pods Frameworks */,
+				0849C2487D5604969816EA9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8D57CD81E81BD0F007964B4 /* Build configuration list for PBXNativeTarget "WistiaKitDemoMasterClassTests" */;
 			buildPhases = (
+				47781916A2AF5A6237C7FE01 /* [CP] Check Pods Manifest.lock */,
 				B8D57CC81E81BD0F007964B4 /* Sources */,
 				B8D57CC91E81BD0F007964B4 /* Frameworks */,
 				B8D57CCA1E81BD0F007964B4 /* Resources */,
+				4B12DF05FD468E8A9A844310 /* [CP] Embed Pods Frameworks */,
+				67B4CE8BD16F39DE03DCB514 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0849C2487D5604969816EA9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WistiaKitDemoMasterClass/Pods-WistiaKitDemoMasterClass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47781916A2AF5A6237C7FE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B12DF05FD468E8A9A844310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WistiaKitDemoMasterClassTests/Pods-WistiaKitDemoMasterClassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B4CE8BD16F39DE03DCB514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WistiaKitDemoMasterClassTests/Pods-WistiaKitDemoMasterClassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B120F3CE48E828ABC9B509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WistiaKitDemoMasterClass/Pods-WistiaKitDemoMasterClass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED37005B18304BC514FAC8BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8D57CB41E81BD0F007964B4 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		B8D57CD61E81BD0F007964B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B60CBE1B4F200BF5BC19D1 /* Pods-WistiaKitDemoMasterClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WK2XVYGZU9;
@@ -352,6 +484,7 @@
 		};
 		B8D57CD71E81BD0F007964B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E9D7EE019B42EA8574BBC4 /* Pods-WistiaKitDemoMasterClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WK2XVYGZU9;
@@ -365,6 +498,7 @@
 		};
 		B8D57CD91E81BD0F007964B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF71E4946501B35A31806FC /* Pods-WistiaKitDemoMasterClassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +514,7 @@
 		};
 		B8D57CDA1E81BD0F007964B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1449B0D2614F47F5575BDD /* Pods-WistiaKitDemoMasterClassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

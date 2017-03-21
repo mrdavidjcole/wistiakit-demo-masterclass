@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - WistiaKit (0.21.0):
+    - Alamofire (~> 4.0)
+    - AlamofireImage (~> 3.0)
+
+DEPENDENCIES:
+  - WistiaKit (from `https://github.com/wistia/WistiaKit.git`)
+
+EXTERNAL SOURCES:
+  WistiaKit:
+    :git: https://github.com/wistia/WistiaKit.git
+
+CHECKOUT OPTIONS:
+  WistiaKit:
+    :commit: f103fc1316635cfd484f8e328f0665055ecaae4c
+    :git: https://github.com/wistia/WistiaKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  WistiaKit: 2636ef751efabb9c6d13722a2800c469a95d8657
+
+PODFILE CHECKSUM: 76ff46b19f178e9872152877481dfadeee3a6e42
+
+COCOAPODS: 1.2.0

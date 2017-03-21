@@ -1,0 +1,6 @@
+framework module Pods_WistiaKitDemoMasterClass {
+  umbrella header "Pods-WistiaKitDemoMasterClass-umbrella.h"
+
+  export *
+  module * { export * }
+}

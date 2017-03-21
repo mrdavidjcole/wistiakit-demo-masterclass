@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import WistiaKit
 
 class ViewController: UIViewController {
+    let wistiaPlayerVC = WistiaPlayerViewController(referrer: "https://masterclass.com")
+    
+    @IBOutlet weak var hashedIDTextField: UITextField!
 
+    @IBAction func playTapped(_ sender: Any) {
+        if let hashedID = hashedIDTextField.text {
+            wistiaPlayerVC.replaceCurrentVideoWithVideo(forHashedID: hashedID)
+            self.present(wistiaPlayerVC, animated: true, completion: nil)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
