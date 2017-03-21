@@ -1,6 +1,6 @@
 # WistiaKit demo for MasterClass
 
-This here's a small app demonstrating WistiaKit, specifically for MasterClass. It's configured to set the `referrer` to "masterclass.com", so videos with MasterClass's Wistia account (which has domain restrictions enabled) will work.
+This here's a small app demonstrating WistiaKit, specifically for MasterClass. It's configured to set the `referrer` to "masterclass.com", so videos within MasterClass's Wistia account (which has domain restrictions enabled) will work.
 
 ## To run this app:
 
